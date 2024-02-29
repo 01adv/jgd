@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import logo from "../../assets/logo.svg";
 import { Link, Element, Events, animateScroll as scroll } from "react-scroll";
 import Dropdown from "./dropdown/Dropdown";
-import Hamburger from "./hamburger";
+import Hamburger from "./Hamburger";
 
 function Header() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
